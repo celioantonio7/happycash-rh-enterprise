@@ -1,0 +1,11 @@
+project_id = "happycash-rh-enterprise"
+
+[api]
+enabled = true
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+
+[auth]
+enabled = true
+site_url = "http://localhost:8085"
+
